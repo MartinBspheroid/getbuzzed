@@ -5,7 +5,7 @@
     "lib": [
       "ES2022"
     ],
-    "moduleResolution": "node16",
+    "moduleResolution": "nodenext",
     "rootDir": ".",
     "outDir": "build",
     "allowSyntheticDefaultImports": true,
@@ -17,7 +17,7 @@
     "noImplicitReturns": true,
     "noImplicitAny": false,
     "noImplicitThis": false,
-    "strictNullChecks": false
+    "strictNullChecks": false,
   },
   "include": [
     "src/**/*",
