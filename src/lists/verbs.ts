@@ -1,4 +1,4 @@
-export const verb = [
+export const verbs = [
     "Innovate",
     "Optimize",
     "Transform",

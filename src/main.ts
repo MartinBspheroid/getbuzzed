@@ -1,10 +1,13 @@
 import express from 'express'
+import { makeNewBuzz } from './makeNewBuzz'
 
 
 const app = express()
 
+
+
 app.get('/', (req, res) => {
-    res.send('Hello from getbuzzed!')
+    res.send(makeNewBuzz())
 
 
 })
